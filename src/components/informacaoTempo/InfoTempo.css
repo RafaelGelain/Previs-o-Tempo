@@ -1,0 +1,37 @@
+.clima-container{
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.info-weather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.img{
+    width: 10px;
+}
+.temperature{
+    font-weight: bold;
+    font-size: 1.8rem;
+
+}
+.descricao{
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    
+
+}
+.detalhes{
+    display: flex;
+    justify-content: space-evenly;
+    
+}

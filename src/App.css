@@ -1,0 +1,37 @@
+.container{
+    max-width: 1000px;
+    /* Espaço dentro  */
+    padding: 20px;
+    margin: 20px auto 20px auto;
+    text-align: center;
+    background-color: #030a24;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: start;
+    color: white;
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    width: 60%;
+    max-width: 300px;
+    outline: none;
+}
+button{
+    background-color: #1b37b498;
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+}
+button:hover{
+    background-color: #1b37b4;
+}
