@@ -19,7 +19,7 @@ function InfoTempoSemana({weather5day}){
       }
     }
 
-    const nextFiveDay = Object.values(dailyForecast).slice(0,6)
+    const nextFiveDay = Object.values(dailyForecast).slice(0,4)
 
     function convertDate(date){
     const newDate = new Date(date.dt * 1000).toLocaleDateString('pt-BR', {weekday: 'long'})
@@ -29,7 +29,7 @@ function InfoTempoSemana({weather5day}){
     return(
 
     <div className='clima-container'>
-        <h3>Previsão para os Proximos 5 Dias</h3>
+        <h3>Previsão de 4 dias</h3>
 
         <div className='weather-list'>
         {nextFiveDay.map(forecast => (

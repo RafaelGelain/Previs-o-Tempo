@@ -17,17 +17,21 @@
     color: blue;
 }
 .weather-list{
+    width: 100%; /* Ou defina uma largura maior se necessário */
     display: flex;
-    justify-content: space-between;
+    flex-direction: row; /* Itens lado a lado */
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-between; /* Opcional: ajusta o espaçamento */
+    flex-wrap: wrap; /* Permite quebra de linha quando necessário */
 }
 .weather-item{
+    flex: 1 1 calc(25% - 30px); /* Cada item ocupa 25% menos margem */
+    max-width: calc(25% - 30px); /* Limita o tamanho para caber no contêiner */
     text-align: center;
     background-color: #192552d3;
     border-radius: 10px;
-    padding: 25px;
-
+    padding: 15px;
+    margin: 15px;
 }
 .weather-day, .weather-descricao{
     text-transform: capitalize;
